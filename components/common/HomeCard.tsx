@@ -13,7 +13,7 @@ export default function HomeCard({ home }: { home: any }) {
           height={100}
           alt={home.title}
           className="w-full h-[300px] rounded-xl object-cover object-center"
-          quality={70}
+          unoptimized
         />
         <p className="font-semibold">
           {home.city}, {home.country}

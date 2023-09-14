@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { countries } from "@/config/countries";
 import { Input } from "./ui/input";
-import { Textarea } from "./ui/textarea";
+
 import { categories } from "@/config/categories";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";

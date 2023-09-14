@@ -9,6 +9,8 @@ export const metadata: Metadata = {
   description: "Let's Airbnb it",
 };
 
+export const dynamic = "force-dynamic";
+
 export default function RootLayout({
   children,
 }: {

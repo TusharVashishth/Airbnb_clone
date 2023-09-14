@@ -13,7 +13,6 @@ import { Search } from "lucide-react";
 import { Button } from "../ui/button";
 import { addDays, parse, format } from "date-fns";
 import { useRouter, useSearchParams } from "next/navigation";
-import { capitializeFirst } from "@/lib/utils";
 import MobileNav from "../base/MobileNav";
 import { differenceInDays } from "date-fns/esm";
 
